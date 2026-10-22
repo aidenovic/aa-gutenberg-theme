@@ -1,0 +1,15 @@
+.aagt-native-form { margin-block: 2rem; }
+.aa-native-contact { display: grid; gap: 1.5rem; }
+.aa-native-contact .form-field { display: grid; gap: .5rem; }
+.aa-native-contact label { font-weight: 600; }
+.aa-native-contact input:not([type=checkbox]),.aa-native-contact textarea {
+ width: 100%; max-width: 100%; min-width: 0; padding: .75rem;
+ border: 1px solid var(--aa-border); background: var(--aa-white); color: var(--aa-text);
+ font: inherit; border-radius: var(--aa-button-radius);
+}
+.aa-native-contact textarea { resize: vertical; }
+.aa-native-contact .privacy-check { display: flex; align-items: flex-start; gap: .75rem; }
+.aa-native-contact .privacy-check input { margin-top: .5em; flex-shrink: 0; }
+.aa-native-contact button { border: 0; cursor: pointer; justify-self: start; }
+.aa-contact-status[role=alert] { color: var(--aa-error); }
+.aa-contact-honeypot { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }

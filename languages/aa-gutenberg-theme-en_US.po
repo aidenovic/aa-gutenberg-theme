@@ -1,0 +1,491 @@
+# AA Gutenberg Theme English translation. GPL-2.0-or-later.
+# Adapted 2026-10-19 from translations in ZW Gutenberg Theme by ZEITWERK.
+msgid ""
+msgstr ""
+"Project-Id-Version: AA Gutenberg Theme 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/aa-gutenberg-"
+"theme\n"
+"POT-Creation-Date: 2026-10-19T14:33:46+00:00\n"
+"PO-Revision-Date: 2026-10-19 16:00+0200\n"
+"Last-Translator: AA\n"
+"Language-Team: AA\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: aa-gutenberg-theme\n"
+
+#. Theme Name of the theme
+#: functions.php:16 inc/setup.php:5 inc/setup.php:30
+msgid "AA Gutenberg Theme"
+msgstr "AA Gutenberg Theme"
+
+#. Description of the theme
+msgid ""
+"Eigenständiges neutrales Block-Theme mit nativen Gutenberg-Blöcken, Global "
+"Styles und optionalem Kontaktformular."
+msgstr ""
+"Standalone neutral block theme with native Gutenberg blocks, Global Styles "
+"and an optional contact form."
+
+#. Author of the theme
+msgid "AA"
+msgstr "AA"
+
+#: inc/content.php:5
+msgid "Platz für deine Ideen"
+msgstr "Room for your ideas"
+
+#: inc/content.php:6
+msgid ""
+"Dies ist deine bearbeitbare Grundlage. Ersetze diese Platzhalter durch deine "
+"eigenen Inhalte."
+msgstr ""
+"This is your editable starting point. Replace these placeholders with your "
+"own content."
+
+#: inc/content.php:7
+msgid "Dein nächster Abschnitt"
+msgstr "Your next section"
+
+#: inc/content.php:8
+msgid ""
+"Ergänze Texte, Bilder und weitere Gutenberg-Blöcke. Farben und Typografie "
+"kannst du im Site Editor unter Stile anpassen."
+msgstr ""
+"Add text, images and more Gutenberg blocks. Adjust colors and typography "
+"under Styles in the Site Editor."
+
+#: inc/i18n.php:27
+msgid "Sprache wählen"
+msgstr "Choose language"
+
+#. translators: %s: website title.
+#: inc/native-form.php:28
+msgid "Neue Kontaktanfrage – %s"
+msgstr "New contact inquiry – %s"
+
+#: inc/native-form.php:29 inc/native-form.php:60
+msgid "Name"
+msgstr "Name"
+
+#: inc/native-form.php:30 inc/native-form.php:60
+msgid "E-Mail"
+msgstr "Email"
+
+#: inc/native-form.php:44
+msgid "Vielen Dank. Ihre Anfrage wurde zum Versand angenommen."
+msgstr "Thank you. Your inquiry has been accepted for sending."
+
+#: inc/native-form.php:45
+msgid ""
+"Bitte Name, gültige E-Mail, Nachricht und Zustimmung vollständig angeben."
+msgstr "Please provide your name, a valid email address, message and consent."
+
+#: inc/native-form.php:46
+msgid ""
+"Das Formular ist abgelaufen. Bitte die Seite neu laden und erneut versuchen."
+msgstr "The form has expired. Please reload the page and try again."
+
+#: inc/native-form.php:47
+msgid "Bitte warten Sie einige Minuten, bevor Sie erneut eine Anfrage senden."
+msgstr "Please wait a few minutes before sending another inquiry."
+
+#: inc/native-form.php:48
+msgid ""
+"Die Anfrage konnte nicht versendet werden. Bitte später erneut versuchen."
+msgstr "The inquiry could not be sent. Please try again later."
+
+#: inc/native-form.php:63
+msgid "Nachricht"
+msgstr "Message"
+
+#: inc/native-form.php:64
+msgid ""
+"Ich stimme der Verarbeitung meiner Angaben zur Bearbeitung meiner Anfrage zu."
+msgstr "I consent to my information being processed to respond to my inquiry."
+
+#: inc/native-form.php:66
+msgid "Datenschutzerklärung"
+msgstr "Privacy policy"
+
+#: inc/native-form.php:67
+msgid "Anfrage senden"
+msgstr "Send inquiry"
+
+#: inc/quality.php:22 inc/quality.php:27
+msgid "Theme-Einstellungen"
+msgstr "Theme settings"
+
+#: inc/quality.php:22
+msgid "Einstellungen"
+msgstr "Settings"
+
+#: inc/quality.php:29
+msgid "Animationen"
+msgstr "Animations"
+
+#: inc/quality.php:29
+msgid "Dezente Scroll-Animationen aktivieren"
+msgstr "Enable subtle scroll animations"
+
+#: inc/quality.php:30
+msgid ""
+"Standardmäßig aus. Einmaliges weiches Einblenden von unten beim Scrollen; "
+"die Browser-Einstellung „Bewegung reduzieren“ hat Vorrang. Inhalte bleiben "
+"ohne JavaScript sichtbar. Farben und Layout werden nicht verändert."
+msgstr ""
+"Off by default. Fade in gently from below once on scroll; the browser’s "
+"reduced-motion preference takes priority. Content remains visible without "
+"JavaScript. Colors and layout are unchanged."
+
+#: inc/quality.php:31
+msgid "Suchmaschinen"
+msgstr "Search engines"
+
+#: inc/quality.php:31
+msgid "Meta-Beschreibung ohne SEO-Plugin ausgeben"
+msgstr "Output a meta description without an SEO plugin"
+
+#: inc/quality.php:32
+msgid ""
+"Den Seitenauszug als Beschreibung pflegen. Ohne Auszug wird ein kurzer Text "
+"aus dem Inhalt verwendet. Erkannte SEO-Plugins haben Vorrang; Titel, "
+"Canonical, Robots und Sitemap bleiben bei WordPress beziehungsweise dem "
+"Plugin."
+msgstr ""
+"Use the page excerpt as its description. Without an excerpt, a short text is "
+"generated from the content. Recognized SEO plugins take priority; WordPress "
+"or the plugin manages titles, canonical URLs, robots and sitemaps."
+
+#: inc/quality.php:33
+msgid ""
+"Ein SEO-Plugin wurde erkannt. Das Theme gibt keine zusätzliche Meta-"
+"Beschreibung aus."
+msgstr ""
+"An SEO plugin was detected. The theme does not output an additional meta "
+"description."
+
+#: inc/quality.php:34
+msgid "Einstellungen speichern"
+msgstr "Save settings"
+
+#: inc/quality.php:35
+msgid "Barrierefreiheit und Datenschutz"
+msgstr "Accessibility and privacy"
+
+#: inc/quality.php:35
+msgid ""
+"Tastaturbedienung und reduzierte Bewegung werden unterstützt. Farben, eigene "
+"Inhalte und eingebundene Plugins müssen je Projekt geprüft werden. Ein Theme "
+"allein bestätigt keine vollständige Barrierefreiheit oder DSGVO-Konformität."
+msgstr ""
+"Keyboard navigation and reduced motion are supported. Colors, custom content "
+"and plugins must be checked for each project. A theme alone does not certify "
+"full accessibility or GDPR compliance."
+
+#: inc/quality.php:36
+msgid ""
+"Suchmaschinen-Indexierung ist in WordPress derzeit deaktiviert. Für eine "
+"Entwicklungsseite ist das vorgesehen; vor einem öffentlichen Start prüfen."
+msgstr ""
+"Search engine indexing is currently disabled in WordPress. This is "
+"appropriate for a development site; review it before a public launch."
+
+#: inc/quality.php:37
+msgid ""
+"Es ist keine veröffentlichte WordPress-Datenschutzerklärung zugeordnet. "
+"Unter Einstellungen → Datenschutz die passende Seite prüfen."
+msgstr ""
+"No published WordPress privacy policy is assigned. Check the appropriate "
+"page under Settings → Privacy."
+
+#: inc/quality.php:38
+msgid ""
+"Datenschutz- und Impressumslinks, Formularspeicherung, Mailversand, "
+"Serverlogs und Löschfristen mit dem Betreiber abstimmen. Die Datei QUALITY."
+"md beschreibt die Prüfung und Grenzen."
+msgstr ""
+"Review privacy and legal notice links, form storage, email delivery, server "
+"logs and retention periods with the operator. QUALITY.md documents the "
+"checks and limitations."
+
+#: inc/setup.php:6
+msgid "Einrichten"
+msgstr "Setup"
+
+#: inc/setup.php:7
+msgid "Anleitung"
+msgstr "Guide"
+
+#: inc/setup.php:16
+msgid "Meine Startseite"
+msgstr "My homepage"
+
+#: inc/setup.php:21
+msgid "Keine Berechtigung."
+msgstr "Permission denied."
+
+#: inc/setup.php:30
+msgid ""
+"Eine neutrale Grundlage für deine Website. Die Aktivierung erstellt keine "
+"Seiten und ändert deine Startseite nicht."
+msgstr ""
+"A neutral starting point for your website. Activation creates no pages and "
+"does not change your homepage."
+
+#: inc/setup.php:33
+msgid "Starterseite als Entwurf anlegen / öffnen"
+msgstr "Create / open starter page as a draft"
+
+#: inc/setup.php:34
+msgid "Design im Site Editor bearbeiten"
+msgstr "Edit design in the Site Editor"
+
+#: inc/setup.php:34
+msgid "Optionales WordPress-Formular"
+msgstr "Optional WordPress form"
+
+#: inc/setup.php:35
+msgid ""
+"Standardmäßig ausgeschaltet. Erst Empfänger, Datenschutzhinweise und "
+"Mailkonfiguration prüfen, dann Versand freigeben und den Kontaktblock "
+"bewusst einfügen."
+msgstr ""
+"Disabled by default. Check the recipient, privacy information and mail "
+"configuration before enabling delivery and adding the contact block."
+
+#: inc/setup.php:37
+msgid "Empfängeradresse"
+msgstr "Recipient address"
+
+#: inc/setup.php:38
+msgid "Versand des WordPress-Formulars freigeben"
+msgstr "Enable WordPress form delivery"
+
+#: inc/setup.php:39
+msgid "Formulareinstellungen speichern"
+msgstr "Save form settings"
+
+#: inc/setup.php:44
+msgid "AA Gutenberg Theme: Anleitung"
+msgstr "AA Gutenberg Theme: Guide"
+
+#: inc/setup.php:46
+msgid ""
+"Starterseite als Entwurf anlegen, bearbeiten und erst nach Prüfung "
+"veröffentlichen. Erneutes Einrichten öffnet dieselbe Seite und überschreibt "
+"keine Inhalte."
+msgstr ""
+"Create the starter page as a draft, edit it and publish it after review. "
+"Repeating setup opens the same page and does not overwrite content."
+
+#: inc/setup.php:47
+msgid ""
+"Unter Einstellungen → Lesen eine veröffentlichte Seite ausdrücklich als "
+"Startseite zuordnen."
+msgstr "Select a published page as your homepage under Settings → Reading."
+
+#: inc/setup.php:48
+msgid ""
+"Header, Footer, Website-Logo, Navigation und globale Stile im Site Editor "
+"bearbeiten."
+msgstr ""
+"Edit the header, footer, site logo, navigation and Global Styles in the Site "
+"Editor."
+
+#: inc/setup.php:49
+msgid ""
+"Neue Abschnitte mit nativen Blöcken oder unter Vorlagen → AA Gutenberg Theme "
+"ergänzen."
+msgstr "Add sections using native blocks or Patterns → AA Gutenberg Theme."
+
+#: inc/setup.php:50
+msgid ""
+"Kontaktblock standardmäßig ohne Ausgabe. WordPress-Versand ausdrücklich "
+"freigeben. Externe Formularplugins über deren eigenen Block oder Shortcode "
+"einfügen."
+msgstr ""
+
+#: inc/setup.php:51
+msgid ""
+"Gespeicherte Templates und Stile haben Vorrang vor Dateien. Seiten und "
+"Medien bei einem Umzug separat übertragen."
+msgstr ""
+"Saved templates and styles take precedence over files. Transfer pages and "
+"media separately when migrating."
+
+#: inc/setup.php:53
+msgid ""
+"Weitere Hinweise: BENUTZERHANDBUCH.md, INSTALLATION.md, FORMS.md und "
+"MULTILINGUAL.md im Theme."
+msgstr ""
+"See BENUTZERHANDBUCH.md, INSTALLATION.md, FORMS.md and MULTILINGUAL.md in "
+"the theme for more information."
+
+#: patterns/no-results.php
+msgctxt "Pattern title"
+msgid "Keine Ergebnisse"
+msgstr "No results"
+
+#: patterns/no-results.php:9
+msgid "Keine passenden Inhalte gefunden."
+msgstr "No matching content found."
+
+#: patterns/not-found.php
+msgctxt "Pattern title"
+msgid "Seite nicht gefunden"
+msgstr "Page not found"
+
+#: patterns/not-found.php:9
+msgid "Seite nicht gefunden"
+msgstr "Page not found"
+
+#: patterns/not-found.php:9
+msgid "Bitte prüfe die Adresse oder nutze die Suche."
+msgstr "Please check the address or use the search."
+
+#: patterns/starter.php
+msgctxt "Pattern title"
+msgid "Starterseite"
+msgstr "Starter page"
+
+#: blocks/contact-form/index.js:8 blocks/contact-form/index.js:16
+#: blocks/contact-form/index.js:29
+msgid "Kontaktformular"
+msgstr "Contact form"
+
+#: blocks/contact-form/index.js:18
+msgid "Formularanbieter"
+msgstr "Form provider"
+
+#: blocks/contact-form/index.js:20
+msgid "Kein Formular"
+msgstr "No form"
+
+#: blocks/contact-form/index.js:21
+msgid "WordPress-Formular ohne Plugin"
+msgstr "WordPress form without a plugin"
+
+#: blocks/contact-form/index.js:31
+msgid ""
+"WordPress-Formular: Name, E-Mail, Nachricht und Zustimmung. Empfänger unter "
+"AA Gutenberg Theme → Einrichten festlegen."
+msgstr ""
+"WordPress form: name, email, message and consent. Set the recipient under AA "
+"Gutenberg Theme → Setup."
+
+#: blocks/contact-form/index.js:32
+msgid "Auf der Website wird kein Formular ausgegeben."
+msgstr "No form is displayed on the website."
+
+#: blocks/contact-form/index.js:33
+msgid ""
+"Externe Formularplugins über ihren eigenen Block oder Shortcode einfügen."
+msgstr ""
+
+#: blocks/contact-form/block.json
+msgctxt "block title"
+msgid "Kontaktformular"
+msgstr "Contact form"
+
+#: blocks/contact-form/block.json
+msgctxt "block description"
+msgid "Optionales WordPress-Kontaktformular ohne Plugin."
+msgstr "Optional WordPress contact form without a plugin."
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text"
+msgstr "Text"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dunkle Fläche"
+msgstr "Dark surface"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Blau"
+msgstr "Blue"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Akzent"
+msgstr "Accent"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Hintergrund"
+msgstr "Background"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Helle Fläche"
+msgstr "Light surface"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Tastaturfokus"
+msgstr "Keyboard focus"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Fehlertext"
+msgstr "Error text"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Sekundärtext"
+msgstr "Secondary text"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Systemschrift"
+msgstr "System font"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Serif"
+msgstr "Serif"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Klein / Bedienelemente"
+msgstr "Small / controls"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Fließtext"
+msgstr "Body text"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Einleitung"
+msgstr "Lead"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Abschnitt"
+msgstr "Section"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Große Abschnittsüberschrift"
+msgstr "Large section heading"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Headline"
+msgstr "Headline"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header – Logo und Navigation"
+msgstr "Header – logo and navigation"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer – Website-Name und Untertitel"
+msgstr "Footer – site title and tagline"

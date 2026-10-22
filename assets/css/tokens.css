@@ -1,0 +1,27 @@
+/* AA design roles; palette and shared dimensions belong in theme.json. */
+:root,.editor-styles-wrapper {
+ --aa-text: var(--wp--preset--color--ink);
+ --aa-primary: var(--wp--preset--color--primary);
+ --aa-white: var(--wp--preset--color--white);
+ --aa-focus: var(--wp--preset--color--focus);
+ --aa-error: var(--wp--preset--color--error);
+ --aa-border: color-mix(in srgb, var(--aa-text) 30%, transparent);
+ --aa-font-family: var(--wp--preset--font-family--system);
+ --aa-heading-font-family: var(--aa-font-family);
+ --aa-button-font-family: var(--aa-font-family);
+ --aa-small-size: var(--wp--preset--font-size--small);
+ --aa-button-size: var(--aa-small-size);
+ --aa-button-background: var(--aa-primary);
+ --aa-button-color: var(--aa-white);
+ --aa-button-radius: var(--wp--custom--aa--button-radius);
+ --aa-button-tracking: var(--wp--custom--aa--button-tracking);
+ --aa-button-min-height: var(--wp--custom--aa--button-min-height);
+ --aa-button-weight: 600;
+ --aa-button-line-height: 1.2;
+ --aa-button-letter-spacing: 0;
+ --aa-button-text-transform: none;
+ --aa-button-padding-top: .75rem;
+ --aa-button-padding-right: 1.25rem;
+ --aa-button-padding-bottom: .75rem;
+ --aa-button-padding-left: 1.25rem;
+}

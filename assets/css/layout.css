@@ -1,0 +1,26 @@
+/* Layout shared by frontend and editor canvas. */
+*,*::before,*::after { box-sizing: border-box; }
+body { margin: 0; }
+.aagt-header,.aagt-footer,.aagt-main { padding-inline: clamp(1rem, 4vw, 3rem); }
+.aagt-header,.aagt-footer { padding-block: 1.5rem; }
+.aagt-header { border-bottom: 1px solid var(--aa-border); }
+.aagt-footer { border-top: 1px solid var(--aa-border); }
+.aagt-main { padding-block: clamp(2rem, 6vw, 5rem); min-height: 50vh; }
+.aagt-section { padding-block: clamp(1.5rem, 4vw, 3rem); }
+.wp-block-group,.wp-block-column,.wp-block-post-content { min-width: 0; }
+h1,h2,h3,p,li,a { overflow-wrap: anywhere; }
+p,li { hyphens: auto; }
+img { max-width: 100%; height: auto; }
+:where(a,button,input,textarea,select):focus-visible { outline: 3px solid var(--aa-focus); outline-offset: 4px; }
+.aa-language-switcher ul { display: flex; flex-wrap: wrap; gap: 1rem; list-style: none; padding: 0; }
+.wp-block-button__link,.aagt-native-form button {
+ background: var(--aa-button-background); color: var(--aa-button-color);
+ border-radius: var(--aa-button-radius); font-family: var(--aa-button-font-family);
+ font-size: var(--aa-button-size); font-weight: var(--aa-button-weight);
+ line-height: var(--aa-button-line-height); letter-spacing: var(--aa-button-letter-spacing);
+ text-transform: var(--aa-button-text-transform);
+ padding: var(--aa-button-padding-top) var(--aa-button-padding-right) var(--aa-button-padding-bottom) var(--aa-button-padding-left);
+ min-height: var(--aa-button-min-height);
+}
+.wp-block-button.is-style-outline > .wp-block-button__link { background: transparent; color: inherit; }
+@media (max-width: 600px) { .aagt-header .wp-block-group { flex-wrap: wrap; gap: 1rem; } }
