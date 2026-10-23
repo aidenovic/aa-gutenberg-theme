@@ -3,6 +3,7 @@
 defined('ABSPATH') || exit;
 define('AAGT_VERSION', '1.1.1');
 define('AAGT_PATH', get_template_directory());
+// Gemeinsame Theme-Module zentral laden.
 foreach (array('i18n', 'content', 'design', 'native-form', 'forms', 'setup', 'quality') as $module) {
     require_once AAGT_PATH . '/inc/' . $module . '.php';
 }
